@@ -1,7 +1,4 @@
-.logo_inicio{
-    width: 10em;
-    height: 8em;
-}
+
 .logo{
     display: flex;
     justify-content:space-between;
@@ -11,7 +8,6 @@
     width: 10em;
 }
 .boxs_logos{
-    border: 1px solid coral;
     background-color: white;
     color: black;
     width: 12em;
@@ -19,18 +15,21 @@
 }
 
 .nav_listado{
+    display: flex;
     background-color: #3c53b9;
     border: 1px solid #fb8e47;
-    text-align: center;
+    justify-content: space-around;
     
+   
 }
 .boxs_nav{
     display: inline-block;
-    text-decoration: none;
-    background-color: #3c53b9;
-    justify-content: center;
-    color: black;
-    width: 8em;
-    height: 2em;
-    font-size: 2em;
+    color: white;
+    width: 10em;
+    height: 3em;
+    text-align: center;
+    line-height: 2.5em;
+   
+    
+  
 }
