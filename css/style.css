@@ -1,9 +1,30 @@
 * {
-  font-size: 10px; }
+  margin: 0;
+  padding: 0; }
 
 .logo_inicio {
   width: 10em;
-  height: em; }
+  height: 8em; }
 
-footer {
-  background-color: red; }
+.nav_listado {
+  background-color: #3c53b9;
+  border: 1px solid #fb8e47;
+  text-align: center; }
+
+.boxs_nav {
+  display: inline-block;
+  background-color: #3c53b9;
+  justify-content: center;
+  color: black;
+  width: 8em;
+  height: 2em;
+  font-size: 2em; }
+
+main {
+  background-color: #eeeeee; }
+
+.footer_color_1 {
+  background-color: #fb8e47; }
+
+.footer_color_2 {
+  background-color: #d6793c; }
