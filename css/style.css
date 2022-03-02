@@ -136,32 +136,24 @@
 .navigation ul li:nth-child(6).active ~ .indicator {
   transform: translateX(calc(70px*5)); }
 
-/* .nav_listado{
+@media (max-width: 470px) {
+  .nav_nav {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    background: var(--clr);
+    background-color: white; }
+  .navigation {
+    position: relative;
+    width: 24em;
+    height: 4.5em;
     background-color: #3c53b9;
-    border: 1px solid #fb8e47;
-    justify-content: space-around;
-    
-    
-   
-}
-.boxs_nav{
-    display: inline-block;
-    color: white;
-    width: 10em;
-    height: 3em;
-    text-align: center;
-    line-height: 2.5em;
-}
-@media (max-width:470px){
-    
-    .boxs_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1em; } }
 
-        line-height: 2em;
-        font-size: 0.5em;
-    }
-}
- */
 main {
   background-color: #eeeeee; }
 
