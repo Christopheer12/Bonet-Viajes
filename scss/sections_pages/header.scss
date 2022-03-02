@@ -119,7 +119,12 @@
 
 }
 
-
+.navigation ul li:nth-child(2).active ~ .indicator{
+    transform: translateX(cal(70px * 0 ));
+}
+.navigation ul li:nth-child(2).active ~ .indicator{
+    transform: translateX(cal(70px * 2 ));
+}
 /* .nav_listado{
     display: flex;
     background-color: #3c53b9;

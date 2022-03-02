@@ -118,6 +118,12 @@
   border-top-left-radius: 20px;
   box-shadow: 0px -10px 0 0 var(--clr); }
 
+.navigation ul li:nth-child(2).active ~ .indicator {
+  transform: translateX(cal(0px)); }
+
+.navigation ul li:nth-child(2).active ~ .indicator {
+  transform: translateX(cal(140px)); }
+
 /* .nav_listado{
     display: flex;
     background-color: #3c53b9;
