@@ -24,23 +24,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   background: var(--clr);
   background-color: white; }
 
 .navigation {
   position: relative;
-  width: 400px;
-  height: 70px;
+  width: 120em;
+  height: 4.5em;
   background-color: #3c53b9;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px; }
+  border-radius: 1em; }
 
 .navigation ul {
   display: flex;
-  width: 350px; }
+  width: 35em; }
 
 .navigation ul li {
   position: relative;
