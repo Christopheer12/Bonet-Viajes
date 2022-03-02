@@ -28,7 +28,7 @@
   position: relative;
   width: 400px;
   height: 70px;
-  background-color: #fff;
+  background-color: #3c53b9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +53,8 @@
   flex-direction: column;
   width: 100%;
   text-align: center;
-  font-weight: 500; }
+  font-weight: 500;
+  color: aliceblue; }
 
 .navigation ul li a .icon {
   position: relative;
@@ -78,7 +79,8 @@
   transform: translateY(20px); }
 
 .navigation ul li:hover a .text {
-  opacity: 1; }
+  opacity: 1;
+  transform: translateY(10px); }
 
 /* .nav_listado{
     display: flex;
