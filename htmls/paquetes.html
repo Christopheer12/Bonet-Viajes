@@ -23,12 +23,12 @@
             <section class="nav_nav">
                 <div class="navigation">
                     <ul>
-                        <li class="list active"> <a href="./ofertas.html">
+                        <li class="list "> <a href="./ofertas.html">
                                 <span class="icon"><i class="fa-solid fa-hand-holding-dollar"></i></span>
                                 <span class="text">Ofertas</span>
                             </a>
                         </li>
-                        <li class="list "> <a href="./paquetes.html">
+                        <li class="list active "> <a href="./paquetes.html">
                                 <span class="icon"><i class="fa-solid fa-ticket"></i></span>
                                 <span class="text">Paquetes</span>
                             </a>
@@ -107,13 +107,13 @@
     </footer>
     <script>
         const list = document.querySelectorAll('.list');
-        function activeLink(){
+        function activeLink() {
             list.forEach((item) =>
-            item.classList.remove('active'));
+                item.classList.remove('active'));
             this.classList.add('active');
         }
-        list.forEach((item)=>
-        item.addEventListener('click', activeLink));
+        list.forEach((item) =>
+            item.addEventListener('click', activeLink));
     </script>
 </body>
 
