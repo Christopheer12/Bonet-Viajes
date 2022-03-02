@@ -6,6 +6,21 @@
   width: 10em;
   height: 8em; }
 
+.logo {
+  display: flex;
+  justify-content: space-between; }
+
+.logos {
+  height: 5em;
+  width: 10em; }
+
+.boxs_logos {
+  border: 1px solid coral;
+  background-color: white;
+  color: black;
+  width: 12em;
+  height: 5em; }
+
 .nav_listado {
   background-color: #3c53b9;
   border: 1px solid #fb8e47;
@@ -13,6 +28,7 @@
 
 .boxs_nav {
   display: inline-block;
+  text-decoration: none;
   background-color: #3c53b9;
   justify-content: center;
   color: black;
