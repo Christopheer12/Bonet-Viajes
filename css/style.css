@@ -31,31 +31,9 @@
   line-height: 2.5em; }
 
 @media (max-width: 470px) {
-  .logo {
-    display: flex;
-    justify-content: space-between;
-    width: 30em; }
-  .logos {
-    height: 5em;
-    width: 10em; }
-  .boxs_logos {
-    background-color: white;
-    color: black;
-    width: 12em;
-    height: 5em; }
-  .nav_listado {
-    display: flex;
-    background-color: #3c53b9;
-    border: 1px solid #fb8e47;
-    justify-content: space-around;
-    width: 30em; }
   .boxs_nav {
-    display: inline-block;
-    color: white;
-    width: 10em;
-    height: 3em;
-    text-align: center;
-    line-height: 2.5em; } }
+    line-height: 2em;
+    font-size: 0.5em; } }
 
 main {
   background-color: #eeeeee; }
